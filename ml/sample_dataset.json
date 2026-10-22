@@ -1,0 +1,272 @@
+[
+  {
+    "id": "item_001",
+    "text": "SHOCKING BOMBSHELL: Secret government underground facility exposed leaking dangerous bio-weapons to poison citizens water supply!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "ConspiracyWire",
+    "category": "health",
+    "source_url": "http://conspiracywire.example/leak-exposed"
+  },
+  {
+    "id": "item_002",
+    "text": "The Department of Labor reported that nonfarm payroll employment rose by 216,000 in December, with unemployment holding steady at 3.7 percent.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "Bureau of Labor Statistics",
+    "category": "economy",
+    "source_url": "https://bls.gov/news.release/empsit.nr0.htm"
+  },
+  {
+    "id": "item_003",
+    "text": "BREAKING: Scientists confirm drinking boiled lemon water cure all stages of cancer in 48 hours without chemotherapy doctors hate this!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "NaturalHealthMiracles",
+    "category": "health",
+    "source_url": "http://naturalhealthmiracles.example/lemon-cancer"
+  },
+  {
+    "id": "item_004",
+    "text": "NASA's James Webb Space Telescope observed the atmospheric composition of exoplanet WASP-96b, detecting definitive signatures of water vapor.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "NASA",
+    "category": "science",
+    "source_url": "https://nasa.gov/mission_pages/webb/main/index.html"
+  },
+  {
+    "id": "item_005",
+    "text": "UNBELIEVABLE: Famous Hollywood celebrity arrested at airport carrying millions in counterfeit money hidden inside luxury luggage!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "CelebrityGossipDaily",
+    "category": "entertainment",
+    "source_url": "http://celebritygossipdaily.example/arrest-hoax"
+  },
+  {
+    "id": "item_006",
+    "text": "The Federal Reserve raised the benchmark interest rate by 25 basis points to a target range of 5.25% to 5.50%, the highest level in 22 years.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "Federal Reserve Board",
+    "category": "economy",
+    "source_url": "https://federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm"
+  },
+  {
+    "id": "item_007",
+    "text": "5G cell towers are transmitting mind control frequencies designed to alter human DNA and track every move through microchips in vaccines.",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "TruthSeekerForum",
+    "category": "technology",
+    "source_url": "http://truthseekerforum.example/5g-chips"
+  },
+  {
+    "id": "item_008",
+    "text": "The World Health Organization confirmed an ongoing outbreak of cholera in eastern Africa and deployed 2.3 million oral vaccine doses.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "World Health Organization",
+    "category": "health",
+    "source_url": "https://who.int/news/item/outbreak-cholera-response"
+  },
+  {
+    "id": "item_009",
+    "text": "BANNED VIDEO: Leaked footage proves the Earth is flat and NASA has been projecting a hologram dome over the sky since 1958!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "FlatEarthTruthNow",
+    "category": "science",
+    "source_url": "http://flatearthtruthnow.example/banned-leak"
+  },
+  {
+    "id": "item_010",
+    "text": "The European Space Agency launched the Euclid space telescope from Cape Canaveral to construct the largest and most accurate 3D map of the universe.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "European Space Agency",
+    "category": "science",
+    "source_url": "https://esa.int/Science_Exploration/Space_Science/Euclid"
+  },
+  {
+    "id": "item_011",
+    "text": "URGENT ALERT: Government introduces secret bill to seize all private retirement funds and convert them into digital surveillance currency by next Monday!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "FreedomPatriotAlerts",
+    "category": "politics",
+    "source_url": "http://freedompatriot.example/secret-seizure"
+  },
+  {
+    "id": "item_012",
+    "text": "The Supreme Court ruled 6-3 that race-conscious admissions programs at Harvard and the University of North Carolina violate the Equal Protection Clause.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "Associated Press",
+    "category": "politics",
+    "source_url": "https://apnews.com/article/supreme-court-affirmative-action"
+  },
+  {
+    "id": "item_013",
+    "text": "Miracle magnetic bracelet permanently lowers blood pressure and eliminates arthritis pain overnight without medications, clinical studies confirm!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "MegaVibeCures",
+    "category": "health",
+    "source_url": "http://megavibecures.example/bracelet"
+  },
+  {
+    "id": "item_014",
+    "text": "The International Energy Agency reported that global investment in clean energy reached $1.8 trillion, surpassing fossil fuel investments by significant margins.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "International Energy Agency",
+    "category": "energy",
+    "source_url": "https://iea.org/reports/world-energy-investment-2023"
+  },
+  {
+    "id": "item_015",
+    "text": "EXPOSED: Major fast food chain caught using synthetic cloned meat grown in underground laboratories containing toxic chemical adhesives!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "FoodWatchExposures",
+    "category": "health",
+    "source_url": "http://foodwatchexposures.example/cloned-meat"
+  },
+  {
+    "id": "item_016",
+    "text": "The Bank of England held interest rates at 5.25 percent after official statistics showed UK consumer price inflation slowed to 3.9 percent.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "Reuters",
+    "category": "economy",
+    "source_url": "https://reuters.com/markets/bank-england-holds-rates"
+  },
+  {
+    "id": "item_017",
+    "text": "CONFIDENTIAL MEMO: Global elites meeting secretly in Switzerland decided to ban private vehicle ownership worldwide by the end of next year!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "GlobalAwakeningNews",
+    "category": "politics",
+    "source_url": "http://globalawakening.example/private-car-ban"
+  },
+  {
+    "id": "item_018",
+    "text": "Researchers at MIT developed a desalinization system that uses solar energy to produce clean drinking water at lower cost than conventional tap water.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "MIT News",
+    "category": "science",
+    "source_url": "https://news.mit.edu/2023/desalination-system-solar-drinking-water"
+  },
+  {
+    "id": "item_019",
+    "text": "BOMBSHELL: Archaeological dig uncovers 20-foot giant skeletons in desert proving mythical giants ruled human civilization before biblical flood!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "ForbiddenHistoryBlog",
+    "category": "history",
+    "source_url": "http://forbiddenhistory.example/giant-skeletons"
+  },
+  {
+    "id": "item_020",
+    "text": "The United Nations Framework Convention on Climate Change concluded COP28 with an agreement signaling the beginning of the end of the fossil fuel era.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "UN Climate Press",
+    "category": "environment",
+    "source_url": "https://unfccc.int/news/cop28-agreement-signals-beginning-of-end-of-fossil-fuel-era"
+  },
+  {
+    "id": "item_021",
+    "text": "SHOCKING PROOF: Drinking colloidal silver protects 100% against all viral infections and eliminates need for any vaccines doctors hide this truth!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "HolisticCuresOnline",
+    "category": "health",
+    "source_url": "http://holisticcures.example/colloidal-silver"
+  },
+  {
+    "id": "item_022",
+    "text": "The National Oceanic and Atmospheric Administration declared that global average sea surface temperatures reached record highs throughout the past summer.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "NOAA",
+    "category": "environment",
+    "source_url": "https://noaa.gov/news/global-sea-surface-temperatures-record"
+  },
+  {
+    "id": "item_023",
+    "text": "CONSPIRACY UNCOVERED: Airplane contrails are actually chemical spray containing lithium and barium designed to suppress human cognitive functions!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "ChemtrailWatchDaily",
+    "category": "science",
+    "source_url": "http://chemtrailwatch.example/lithium-spray"
+  },
+  {
+    "id": "item_024",
+    "text": "The Centers for Disease Control and Prevention published updated clinical guidelines recommending annual influenza vaccination for all persons aged 6 months and older.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "CDC Morbidity Report",
+    "category": "health",
+    "source_url": "https://cdc.gov/mmwr/volumes/72/rr/rr7202a1.htm"
+  },
+  {
+    "id": "item_025",
+    "text": "SCANDALOUS COVER-UP: Tech billionaires purchased underground bunker compounds in New Zealand because an asteroid will collide with Earth in 60 days!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "DoomsdayInsider",
+    "category": "technology",
+    "source_url": "http://doomsdayinsider.example/asteroid-collision"
+  },
+  {
+    "id": "item_026",
+    "text": "The International Monetary Fund maintained its forecast for global economic growth at 3.0 percent, citing resilience in services but persistent inflation pressures.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "IMF World Economic Outlook",
+    "category": "economy",
+    "source_url": "https://imf.org/en/Publications/WEO/Issues/2023/10/10/world-economic-outlook-october-2023"
+  },
+  {
+    "id": "item_027",
+    "text": "SECRET CURE: Eating raw garlic cloves every morning guarantees immunity from all respiratory viruses and eliminates arterial plaque instantly!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "RemedyNaturals",
+    "category": "health",
+    "source_url": "http://remedynaturals.example/garlic-miracle"
+  },
+  {
+    "id": "item_028",
+    "text": "The Food and Drug Administration approved the first gene therapy treatment using CRISPR Cas9 technology for sickle cell disease in patients 12 and older.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "FDA Press Announcement",
+    "category": "health",
+    "source_url": "https://fda.gov/news-events/press-announcements/fda-approves-first-gene-therapies-treat-patients-sickle-cell-disease"
+  },
+  {
+    "id": "item_029",
+    "text": "LEAKED AUDIO: Famous pop singer admits in private recording that their live stadium concert was entirely performed by a hyper-realistic android robot!",
+    "label": 1,
+    "label_text": "fake",
+    "speaker": "PopScoopLeak",
+    "category": "entertainment",
+    "source_url": "http://popscoopleak.example/android-singer"
+  },
+  {
+    "id": "item_030",
+    "text": "The United States Census Bureau released data indicating that the national median household income in 2022 was $74,580, not statistically different from 2021.",
+    "label": 0,
+    "label_text": "real",
+    "speaker": "US Census Bureau",
+    "category": "economy",
+    "source_url": "https://census.gov/newsroom/press-releases/2023/income-poverty-health-insurance.html"
+  }
+]

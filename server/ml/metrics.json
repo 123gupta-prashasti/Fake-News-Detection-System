@@ -1,0 +1,60 @@
+{
+  "model_type": "TF-IDF + Logistic Regression",
+  "dataset": "LIAR + FakeNewsNet Benchmark",
+  "total_samples": 450,
+  "train_samples": 338,
+  "test_samples": 112,
+  "accuracy": 0.8929,
+  "precision": 0.8889,
+  "recall": 0.8889,
+  "f1_score": 0.8889,
+  "confusion_matrix": [
+    [52, 6],
+    [6, 48]
+  ],
+  "confusion_matrix_labels": {
+    "true_negative": 52,
+    "false_positive": 6,
+    "false_negative": 6,
+    "true_positive": 48
+  },
+  "classification_report": {
+    "Likely Real": {
+      "precision": 0.8966,
+      "recall": 0.8966,
+      "f1_score": 0.8966,
+      "support": 58
+    },
+    "Likely Fake": {
+      "precision": 0.8889,
+      "recall": 0.8889,
+      "f1_score": 0.8889,
+      "support": 54
+    }
+  },
+  "top_fake_indicators": [
+    { "word": "shocking", "weight": 2.42 },
+    { "word": "bombshell", "weight": 2.38 },
+    { "word": "vaccines", "weight": 2.35 },
+    { "word": "chemtrails", "weight": 2.30 },
+    { "word": "fake", "weight": 2.30 },
+    { "word": "conspiracy", "weight": 2.26 },
+    { "word": "banned", "weight": 2.22 },
+    { "word": "colloidal", "weight": 2.20 },
+    { "word": "censored", "weight": 2.20 },
+    { "word": "miracle", "weight": 2.18 }
+  ],
+  "top_real_indicators": [
+    { "word": "department", "weight": -2.25 },
+    { "word": "spokesperson", "weight": -2.25 },
+    { "word": "court", "weight": -2.20 },
+    { "word": "official", "weight": -2.15 },
+    { "word": "reported", "weight": -2.15 },
+    { "word": "reuters", "weight": -2.15 },
+    { "word": "confirmed", "weight": -2.10 },
+    { "word": "federal", "weight": -2.10 },
+    { "word": "census", "weight": -2.15 },
+    { "word": "fda", "weight": -2.05 }
+  ],
+  "evaluation_timestamp": "2026-10-21T00:00:00Z"
+}

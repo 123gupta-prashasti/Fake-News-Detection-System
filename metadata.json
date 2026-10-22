@@ -1,0 +1,6 @@
+{
+  "name": "NewsVerify - AI Fake News Detection & Claim Verification",
+  "description": "An AI-powered misinformation detection, factual claim verification, linguistic manipulation analysis, and source credibility platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

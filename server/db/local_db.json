@@ -1,0 +1,490 @@
+{
+  "users": [
+    {
+      "_id": "usr_admin_001",
+      "name": "Dr. Evelyn Reed (Lead Auditor)",
+      "email": "admin@newsverify.org",
+      "password": "$2b$10$u567YSEFN509shK.1.JZs.mNajrVBdX.zfegrv8pXTW.iIWpHswka",
+      "role": "admin",
+      "createdAt": "2026-09-01T10:00:00Z"
+    },
+    {
+      "_id": "usr_analyst_002",
+      "name": "Alex Rivera (Fact Checker)",
+      "email": "analyst@newsverify.org",
+      "password": "$2b$10$u567YSEFN509shK.1.JZs.W.h5UxtUFGDnBbZZQwbWDfCKn2ILUt2",
+      "role": "user",
+      "createdAt": "2026-09-15T14:30:00Z"
+    }
+  ],
+  "analyses": [
+    {
+      "_id": "ana_1792645421521_v1rtw",
+      "userId": "usr_test_user_b",
+      "userEmail": "userB@test.com",
+      "inputHeadline": "User B Item 1",
+      "rawInputText": "Text B",
+      "extractedText": "Text B",
+      "inputType": "text",
+      "prediction": "Likely Real",
+      "modelConfidence": 85,
+      "overallRiskScore": 15,
+      "mlProbabilityFake": 0.15,
+      "featureContributions": [],
+      "linguisticIndicators": {},
+      "sourceAssessment": {},
+      "claims": [],
+      "riskScoreBreakdown": {},
+      "verdictSummary": "Summary B",
+      "createdAt": "2026-10-22T05:03:41.521Z"
+    },
+    {
+      "_id": "ana_1792643424834_64p54",
+      "userId": "usr_analyst_002",
+      "userEmail": "analyst@newsverify.org",
+      "inputHeadline": null,
+      "rawInputText": "SHOCKING: Drinking boiled lemon water cures all cancer in 48 hours without chemotherapy doctors hate this!",
+      "extractedText": "SHOCKING: Drinking boiled lemon water cures all cancer in 48 hours without chemotherapy doctors hate this!",
+      "inputType": "text",
+      "sourceUrl": null,
+      "prediction": "Likely Fake",
+      "overallRiskScore": 71,
+      "modelConfidence": 97,
+      "mlProbabilityFake": 0.9723,
+      "category": "general",
+      "featureContributions": [
+        {
+          "token": "shocking",
+          "weight": 0.8004,
+          "direction": "fake",
+          "impact": "high"
+        },
+        {
+          "token": "drinking",
+          "weight": -0.5656,
+          "direction": "real",
+          "impact": "high"
+        },
+        {
+          "token": "boiled",
+          "weight": 0.6112,
+          "direction": "fake",
+          "impact": "high"
+        },
+        {
+          "token": "lemon",
+          "weight": 0.6381,
+          "direction": "fake",
+          "impact": "high"
+        },
+        {
+          "token": "water",
+          "weight": 0.1237,
+          "direction": "fake",
+          "impact": "low"
+        },
+        {
+          "token": "cancer",
+          "weight": 0.3414,
+          "direction": "fake",
+          "impact": "medium"
+        },
+        {
+          "token": "hours",
+          "weight": 0.2509,
+          "direction": "fake",
+          "impact": "medium"
+        },
+        {
+          "token": "chemotherapy",
+          "weight": 0.487,
+          "direction": "fake",
+          "impact": "high"
+        },
+        {
+          "token": "doctors",
+          "weight": 0.5339,
+          "direction": "fake",
+          "impact": "high"
+        },
+        {
+          "token": "hate",
+          "weight": 0.6213,
+          "direction": "fake",
+          "impact": "high"
+        }
+      ],
+      "linguisticIndicators": {
+        "sensationalismScore": 100,
+        "excessiveCapsScore": 21,
+        "punctuationScore": 38,
+        "clickbaitScore": 30,
+        "fearOutrageScore": 0,
+        "unsupportedCertaintyScore": 0,
+        "compositeManipulationScore": 41,
+        "capsRatio": 6,
+        "exclamationCount": 1,
+        "detectedClickbaitPhrases": [
+          "doctors hate this"
+        ],
+        "detectedSensationalWords": [
+          "shocking"
+        ],
+        "detectedFearWords": [],
+        "detectedCertaintyWords": [],
+        "summary": "Moderate stylistic styling detected (41/100) with occasional emotive or dramatic framing.",
+        "disclaimer": "This is a linguistic manipulation indicator, not proof of fake news."
+      },
+      "sourceAssessment": {
+        "domain": null,
+        "publisher": null,
+        "author": null,
+        "publishDate": null,
+        "citationsFound": 0,
+        "hasByline": false,
+        "hasTimestamp": false,
+        "domainCategory": "unspecified",
+        "credibilityScore": 40,
+        "factors": [
+          {
+            "factor": "Source Origin / Domain",
+            "status": "neutral",
+            "impact": "No URL or domain provided (pasted text). Evaluation focuses on textual and stylistic signals rather than assuming malicious origin."
+          },
+          {
+            "factor": "Author Attribution",
+            "status": "unverified",
+            "impact": "Author metadata unavailable. Note: Unavailable bylines are common in wire reports and aggregated feeds, and should not be treated as affirmative deception."
+          },
+          {
+            "factor": "Publication Timestamp",
+            "status": "unverified",
+            "impact": "Timestamp metadata unavailable. Content cannot be immediately pinned to a specific news cycle."
+          },
+          {
+            "factor": "External Citations",
+            "status": "negative",
+            "impact": "No standard external journalistic attribution markers detected in the analyzed passage."
+          }
+        ],
+        "verdict": "Unverified / Unknown",
+        "summary": "Source metadata is unavailable (direct text analysis). Credibility relies primarily on factual and linguistic indicators."
+      },
+      "claims": [
+        {
+          "id": "claim_1",
+          "claimText": "SHOCKING: Drinking boiled lemon water cures all cancer in 48 hours without chemotherapy doctors hate this!",
+          "factualityConfidence": 45,
+          "keyEntities": [],
+          "verificationStatus": "Unverified",
+          "explanation": "Related background retrieved regarding \"Lithuanian cuisine\", but insufficient overlap to conclusively corroborate or contradict the specific assertion.",
+          "evidence": {
+            "source": "Wikipedia Related Article: \"Lithuanian cuisine\"",
+            "url": "https://en.wikipedia.org/?curid=948976",
+            "snippet": " such as cucumber, dill, or green onions. Hot boiled potatoes, cold sour cream, and diced hard-boiled eggs are often served alongside to add color, texture",
+            "credibilityRating": "Contextual Only"
+          }
+        }
+      ],
+      "reasons": [
+        "The baseline TF-IDF Logistic Regression classifier flagged strong lexical markers of unverified content (P(Fake) = 97.2%)."
+      ],
+      "createdAt": "2026-10-22T04:30:24.834Z"
+    },
+    {
+      "_id": "ana_demo_001",
+      "userId": "usr_analyst_002",
+      "userEmail": "analyst@newsverify.org",
+      "inputHeadline": "Lemon Water Cancer Cure Claims Go Viral",
+      "rawInputText": "BREAKING: Scientists confirm drinking boiled lemon water cure all stages of cancer in 48 hours without chemotherapy doctors hate this!",
+      "extractedText": "BREAKING: Scientists confirm drinking boiled lemon water cure all stages of cancer in 48 hours without chemotherapy doctors hate this!",
+      "inputType": "text",
+      "prediction": "Likely Fake",
+      "overallRiskScore": 89,
+      "modelConfidence": 94,
+      "mlProbabilityFake": 0.942,
+      "category": "health",
+      "featureContributions": [
+        {
+          "token": "cure",
+          "weight": 0.42,
+          "direction": "fake",
+          "impact": "high"
+        },
+        {
+          "token": "cancer",
+          "weight": 0.35,
+          "direction": "fake",
+          "impact": "high"
+        },
+        {
+          "token": "doctors",
+          "weight": 0.31,
+          "direction": "fake",
+          "impact": "medium"
+        }
+      ],
+      "linguisticIndicators": {
+        "sensationalismScore": 85,
+        "excessiveCapsScore": 35,
+        "punctuationScore": 40,
+        "clickbaitScore": 90,
+        "fearOutrageScore": 10,
+        "unsupportedCertaintyScore": 75,
+        "compositeManipulationScore": 78,
+        "capsRatio": 12,
+        "exclamationCount": 1,
+        "detectedClickbaitPhrases": [
+          "doctors hate this"
+        ],
+        "detectedSensationalWords": [
+          "cure",
+          "stages"
+        ],
+        "detectedFearWords": [],
+        "summary": "High degree of rhetorical manipulation detected.",
+        "disclaimer": "This is a linguistic manipulation indicator, not proof of fake news."
+      },
+      "sourceAssessment": {
+        "domain": null,
+        "publisher": null,
+        "author": null,
+        "publishDate": null,
+        "citationsFound": 0,
+        "hasByline": false,
+        "hasTimestamp": false,
+        "domainCategory": "unspecified",
+        "credibilityScore": 25,
+        "verdict": "Unverified / Unknown",
+        "summary": "Direct text input with zero institutional source attribution.",
+        "factors": [
+          {
+            "factor": "Author Attribution",
+            "status": "unverified",
+            "impact": "No byline found."
+          }
+        ]
+      },
+      "claims": [
+        {
+          "id": "claim_1",
+          "claimText": "Drinking boiled lemon water cures all stages of cancer in 48 hours without chemotherapy.",
+          "factualityConfidence": 85,
+          "keyEntities": [
+            "Lemon Water",
+            "Cancer",
+            "Chemotherapy"
+          ],
+          "verificationStatus": "Contradicted",
+          "evidence": {
+            "source": "National Cancer Institute / Peer-Reviewed Oncology Consensus",
+            "url": "https://en.wikipedia.org/wiki/Alternative_cancer_treatments",
+            "snippet": "There is no scientific or clinical evidence that lemon juice or boiling water cures neoplastic malignancies."
+          },
+          "explanation": "Directly contradicted by medical consensus."
+        }
+      ],
+      "reasons": [
+        "High machine learning probability of misinformation (94.2%).",
+        "Intense clickbait rhetorical formulation (\"doctors hate this\").",
+        "Medical assertion contradicted by oncology literature."
+      ],
+      "createdAt": "2026-10-18T11:20:00Z"
+    },
+    {
+      "_id": "ana_demo_002",
+      "userId": "usr_analyst_002",
+      "userEmail": "analyst@newsverify.org",
+      "inputHeadline": "Department of Labor Releases December Employment Numbers",
+      "rawInputText": "The Department of Labor reported that nonfarm payroll employment rose by 216,000 in December, with unemployment holding steady at 3.7 percent according to official statistics.",
+      "extractedText": "The Department of Labor reported that nonfarm payroll employment rose by 216,000 in December, with unemployment holding steady at 3.7 percent according to official statistics.",
+      "inputType": "text",
+      "prediction": "Likely Real",
+      "overallRiskScore": 12,
+      "modelConfidence": 96,
+      "mlProbabilityFake": 0.048,
+      "category": "economy",
+      "featureContributions": [
+        {
+          "token": "department",
+          "weight": -0.48,
+          "direction": "real",
+          "impact": "high"
+        },
+        {
+          "token": "reported",
+          "weight": -0.42,
+          "direction": "real",
+          "impact": "high"
+        },
+        {
+          "token": "official",
+          "weight": -0.38,
+          "direction": "real",
+          "impact": "high"
+        },
+        {
+          "token": "statistics",
+          "weight": -0.35,
+          "direction": "real",
+          "impact": "high"
+        }
+      ],
+      "linguisticIndicators": {
+        "sensationalismScore": 0,
+        "excessiveCapsScore": 0,
+        "punctuationScore": 0,
+        "clickbaitScore": 0,
+        "fearOutrageScore": 0,
+        "unsupportedCertaintyScore": 0,
+        "compositeManipulationScore": 0,
+        "capsRatio": 0,
+        "exclamationCount": 0,
+        "detectedClickbaitPhrases": [],
+        "detectedSensationalWords": [],
+        "detectedFearWords": [],
+        "summary": "Low linguistic manipulation detected (0/100). The prose maintains standard editorial tone.",
+        "disclaimer": "This is a linguistic manipulation indicator, not proof of fake news."
+      },
+      "sourceAssessment": {
+        "domain": "bls.gov",
+        "publisher": "Bureau of Labor Statistics",
+        "author": null,
+        "publishDate": "2026-01-05",
+        "citationsFound": 2,
+        "hasByline": false,
+        "hasTimestamp": true,
+        "domainCategory": "academic_or_gov",
+        "credibilityScore": 90,
+        "verdict": "High Credibility",
+        "summary": "Institutional government statistical agency publication.",
+        "factors": [
+          {
+            "factor": "Domain Governance",
+            "status": "positive",
+            "impact": "Official .gov agency release."
+          }
+        ]
+      },
+      "claims": [
+        {
+          "id": "claim_1",
+          "claimText": "Nonfarm payroll employment rose by 216,000 in December, with unemployment at 3.7 percent.",
+          "factualityConfidence": 92,
+          "keyEntities": [
+            "Department of Labor",
+            "December",
+            "3.7 percent"
+          ],
+          "verificationStatus": "Supported",
+          "evidence": {
+            "source": "Bureau of Labor Statistics Historical Economic Data",
+            "url": "https://en.wikipedia.org/wiki/Bureau_of_Labor_Statistics",
+            "snippet": "The Bureau of Labor Statistics is the principal fact-finding agency for the US government in labor economics."
+          },
+          "explanation": "Supported by official labor economics release."
+        }
+      ],
+      "reasons": [
+        "Strong journalistic/statistical lexical indicators (P(Real) = 95.2%).",
+        "Zero sensational language or clickbait markers detected.",
+        "Attributed to official labor statistics agency."
+      ],
+      "createdAt": "2026-10-19T09:15:00Z"
+    },
+    {
+      "_id": "ana_demo_003",
+      "userId": "usr_analyst_002",
+      "userEmail": "analyst@newsverify.org",
+      "inputHeadline": "Solar Powered Desalination System Developed at MIT",
+      "rawInputText": "Researchers at MIT developed a desalinization system that uses solar energy to produce clean drinking water at lower cost than conventional tap water.",
+      "extractedText": "Researchers at MIT developed a desalinization system that uses solar energy to produce clean drinking water at lower cost than conventional tap water.",
+      "inputType": "text",
+      "prediction": "Likely Real",
+      "overallRiskScore": 18,
+      "modelConfidence": 91,
+      "mlProbabilityFake": 0.092,
+      "category": "science",
+      "featureContributions": [
+        {
+          "token": "researchers",
+          "weight": -0.45,
+          "direction": "real",
+          "impact": "high"
+        },
+        {
+          "token": "mit",
+          "weight": -0.39,
+          "direction": "real",
+          "impact": "high"
+        },
+        {
+          "token": "solar",
+          "weight": -0.32,
+          "direction": "real",
+          "impact": "medium"
+        }
+      ],
+      "linguisticIndicators": {
+        "sensationalismScore": 5,
+        "excessiveCapsScore": 0,
+        "punctuationScore": 0,
+        "clickbaitScore": 0,
+        "fearOutrageScore": 0,
+        "unsupportedCertaintyScore": 0,
+        "compositeManipulationScore": 2,
+        "capsRatio": 2,
+        "exclamationCount": 0,
+        "detectedClickbaitPhrases": [],
+        "detectedSensationalWords": [],
+        "detectedFearWords": [],
+        "summary": "Objective scientific reporting tone.",
+        "disclaimer": "This is a linguistic manipulation indicator, not proof of fake news."
+      },
+      "sourceAssessment": {
+        "domain": "mit.edu",
+        "publisher": "MIT News Office",
+        "author": "David L. Chandler",
+        "publishDate": "2026-09-27",
+        "citationsFound": 1,
+        "hasByline": true,
+        "hasTimestamp": true,
+        "domainCategory": "academic_or_gov",
+        "credibilityScore": 92,
+        "verdict": "High Credibility",
+        "summary": "Reputable academic research institution source.",
+        "factors": [
+          {
+            "factor": "Author Attribution",
+            "status": "positive",
+            "impact": "Named science writer."
+          }
+        ]
+      },
+      "claims": [
+        {
+          "id": "claim_1",
+          "claimText": "Solar desalination system produces drinking water cheaper than tap water.",
+          "factualityConfidence": 88,
+          "keyEntities": [
+            "MIT",
+            "Desalination",
+            "Solar Energy"
+          ],
+          "verificationStatus": "Supported",
+          "evidence": {
+            "source": "MIT Energy Initiative Publications",
+            "url": "https://en.wikipedia.org/wiki/Solar_desalination",
+            "snippet": "Solar desalination uses solar thermal energy to separate pure water from salts and contaminants."
+          },
+          "explanation": "Consistent with published MIT peer-reviewed engineering papers."
+        }
+      ],
+      "reasons": [
+        "High probability of factual scientific reporting (90.8%).",
+        "Documented institution and academic research attribution."
+      ],
+      "createdAt": "2026-10-20T16:45:00Z"
+    }
+  ]
+}
